@@ -1,0 +1,133 @@
+<div class="dashboard-page">
+	<h2 id="dashboard-text-heading">ACCOUNT DETAILS</h2>
+	<div class="dashboard-search-block">
+		<form>
+			<table>
+				<tr>
+					<th>
+						<label for="dashboard_search" class="dashboard_search_label">Search</label>
+					</th>
+					<th>
+						<label for="dashboard_sender" class="dashboard_sender_label">Sender’s Country</label>
+					</th>
+					<th>
+						<label for="dashboard_receiver" class="dashboard_receiver_label">Receiver’s Country</label>
+					</th>
+					<th></th>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" class="dashboard_search_value" id="dashboard_search_value" name="search" placeholder="Enter" formControlName="search" />
+					</td>
+					<td>
+						<input type="text" class="dashboard_sender_value" id="dashboard_sender_value" name="sender" placeholder="Enter" formControlName="sender" />
+					</td>
+					<td>
+						<input type="text" class="dashboard_receiver_value" id="dashboard_receiver_value" name="receiver" placeholder="Enter" formControlName="receiver" />
+					</td>
+					<td>
+						<button type="submit" class="dashboard_search_text" value="search">Search</button>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	<table class="dashboard-transaction-table">
+		<tr>
+			<th>Transaction ID</th>
+			<th>Date and time</th>
+			<th>Sender’s Country name</th>
+			<th>Sent amount</th>
+			<th>Sell Rate</th>
+			<th>Receiver’s Country name</th>
+			<th>Received amount</th>
+			<th>Buy rate</th>
+			<th>CF-Conversion Factor</th>
+			<th>Status</th>
+		</tr>
+		<tr>
+			<td>{{Value[0][0]}}</td>
+			<td>{{Value[0][1]}}</td>
+			<td>{{Value[0][2]}}</td>
+			<td>{{Value[0][3]}}</td>
+			<td>{{Value[0][4]}}</td>
+			<td>{{Value[0][5]}}</td>
+			<td>{{Value[0][6]}}</td>
+			<td>{{Value[0][7]}}</td>
+			<td>{{Value[0][8]}}</td>
+			<td>{{Value[0][9]}}</td>
+		</tr>
+		<tr>
+			<td>{{Value[1][0]}}</td>
+			<td>{{Value[1][1]}}</td>
+			<td>{{Value[1][2]}}</td>
+			<td>{{Value[1][3]}}</td>
+			<td>{{Value[1][4]}}</td>
+			<td>{{Value[1][5]}}</td>
+			<td>{{Value[1][6]}}</td>
+			<td>{{Value[1][7]}}</td>
+			<td>{{Value[1][8]}}</td>
+			<td>{{Value[1][9]}}</td>
+		</tr>
+		<tr>
+			<td>{{Value[2][0]}}</td>
+			<td>{{Value[2][1]}}</td>
+			<td>{{Value[2][2]}}</td>
+			<td>{{Value[2][3]}}</td>
+			<td>{{Value[2][4]}}</td>
+			<td>{{Value[2][5]}}</td>
+			<td>{{Value[2][6]}}</td>
+			<td>{{Value[2][7]}}</td>
+			<td>{{Value[2][8]}}</td>
+			<td>{{Value[2][9]}}</td>
+		</tr>
+		<tr>
+			<td>{{Value[3][0]}}</td>
+			<td>{{Value[3][1]}}</td>
+			<td>{{Value[3][2]}}</td>
+			<td>{{Value[3][3]}}</td>
+			<td>{{Value[3][4]}}</td>
+			<td>{{Value[3][5]}}</td>
+			<td>{{Value[3][6]}}</td>
+			<td>{{Value[3][7]}}</td>
+			<td>{{Value[3][8]}}</td>
+			<td>{{Value[3][9]}}</td>
+		</tr>
+		<tr>
+			<td>{{Value[4][0]}}</td>
+			<td>{{Value[4][1]}}</td>
+			<td>{{Value[4][2]}}</td>
+			<td>{{Value[4][3]}}</td>
+			<td>{{Value[4][4]}}</td>
+			<td>{{Value[4][5]}}</td>
+			<td>{{Value[4][6]}}</td>
+			<td>{{Value[4][7]}}</td>
+			<td>{{Value[4][8]}}</td>
+			<td>{{Value[4][9]}}</td>
+		</tr>
+		<tr>
+			<td>{{Value[5][0]}}</td>
+			<td>{{Value[5][1]}}</td>
+			<td>{{Value[5][2]}}</td>
+			<td>{{Value[5][3]}}</td>
+			<td>{{Value[5][4]}}</td>
+			<td>{{Value[5][5]}}</td>
+			<td>{{Value[5][6]}}</td>
+			<td>{{Value[5][7]}}</td>
+			<td>{{Value[5][8]}}</td>
+			<td>{{Value[5][9]}}</td>
+		</tr>
+		<tr>
+			<td>{{Value[6][0]}}</td>
+			<td>{{Value[6][1]}}</td>
+			<td>{{Value[6][2]}}</td>
+			<td>{{Value[6][3]}}</td>
+			<td>{{Value[6][4]}}</td>
+			<td>{{Value[6][5]}}</td>
+			<td>{{Value[6][6]}}</td>
+			<td>{{Value[6][7]}}</td>
+			<td>{{Value[6][8]}}</td>
+			<td>{{Value[6][9]}}</td>
+		</tr>
+	</table>
+</div>
