@@ -1,0 +1,38 @@
+<div class="login-header">
+  <img class="login-wrapper__svg" src="./assets/images/icon.svg" />
+</div>
+
+<div>
+  <img class="login-page-image1" src="./assets/images/homepage1.svg" />
+  <div class="login-midnav">
+      <p id="login-text">LOGIN</p>
+      <p id="login-text-credentials">Enter your credentials to access.</p>
+      <form>
+      <div class="form-group" id="auuid-label-input">
+        <label for="name" class="frm-group__frm-label" id="auuid-label">AUUID</label> <br>
+        <input
+          type="text"
+          class="frm-group__form-field"
+          placeholder="AUUID"
+          formControlName="auuid"
+          id="auuid-input"
+        />
+      </div>
+      <div class="form-group" id="password-label-input">
+        <label for="name" class="frm-group__frm-label" id="password-label">PASSWORD</label> <br>
+        <input
+          class="frm-group__form-field"
+          type="password"
+          placeholder="PASSWORD"
+          formControlName="password"
+          id="password-input"
+        />
+      </div>
+      <div>
+        <button id="button-label" type="submit" [disabled]="!form.valid">
+          <p id="button-text">Login</p>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
