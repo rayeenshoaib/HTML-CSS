@@ -1,0 +1,98 @@
+<div>
+	<p>ACCOUNT DETAILS</p>
+	<form>
+		<table>
+			<tr>
+				<th>
+					<label for="account_country" class="account_country_label">COUNTRY</label>
+				</th>
+				<th>
+					<label for="account_currency" class="account_currencylabel">CURRENCY</label>
+				</th>
+				<th>
+					<label for="account_buy_rate" class="account_buy_rate_label">BUY RATE</label>
+				</th>
+				<th>
+					<label for="account_sell_rate" class="account_sell_rate_label">SELL RATE</label>
+				</th>
+				<th></th>
+			</tr>
+			<tr>
+				<td>
+					<input type="text" class="account_country_value" id="account_country_value" name="country" placeholder="Enter" formControlName="country" />
+				</td>
+				<td>
+					<input type="text" class="account_currency_value" id="account_currency_value" name="currency" placeholder="Enter" formControlName="currency" />
+				</td>
+				<td>
+					<input type="text" class="account_buy_rate_value" id="account_buy_rate_value" name="buy_rate" placeholder="Enter" formControlName="buy_rate" />
+				</td>
+				<td>
+					<input type="text" class="account_sell_rate_value" id="account_sell_rate_value" name="sell_rate" placeholder="Enter" formControlName="sell_rate" />
+				</td>
+				<td>
+					<button type="submit" class="account_new_record_text" value="new_record">Add New Record</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+	<table>
+		<tr>
+			<th>COUNTRY</th>
+			<th>CURRENCY</th>
+			<th>BUY RATE</th>
+			<th>SELL RATE</th>
+			<th>ACTION</th>
+		</tr>
+		<tr>
+			<td>{{Value[0][0]}}</td>
+			<td>{{Value[0][1]}}</td>
+			<td>{{Value[0][2]}}</td>
+			<td>{{Value[0][3]}}</td>
+			<td>{{Value[0][4]}}</td>
+		</tr>
+		<tr>
+			<td>{{Value[1][0]}}</td>
+			<td>{{Value[1][1]}}</td>
+			<td>{{Value[1][2]}}</td>
+			<td>{{Value[1][3]}}</td>
+			<td>{{Value[1][4]}}</td>
+		</tr>
+		<tr>
+			<td>{{Value[2][0]}}</td>
+			<td>{{Value[2][1]}}</td>
+			<td>{{Value[2][2]}}</td>
+			<td>{{Value[2][3]}}</td>
+			<td>{{Value[2][4]}}</td>
+		</tr>
+		<tr>
+			<td>{{Value[3][0]}}</td>
+			<td>{{Value[3][1]}}</td>
+			<td>{{Value[3][2]}}</td>
+			<td>{{Value[3][3]}}</td>
+			<td>{{Value[3][4]}}</td>
+		</tr>
+		<tr>
+			<td>{{Value[4][0]}}</td>
+			<td>{{Value[4][1]}}</td>
+			<td>{{Value[4][2]}}</td>
+			<td>{{Value[4][3]}}</td>
+			<td>{{Value[4][4]}}</td>
+			<td>{{Value[4][9]}}</td>
+		</tr>
+		<tr>
+			<td>{{Value[5][0]}}</td>
+			<td>{{Value[5][1]}}</td>
+			<td>{{Value[5][2]}}</td>
+			<td>{{Value[5][3]}}</td>
+			<td>{{Value[5][4]}}</td>
+		</tr>
+		<tr>
+			<td>{{Value[6][0]}}</td>
+			<td>{{Value[6][1]}}</td>
+			<td>{{Value[6][2]}}</td>
+			<td>{{Value[6][3]}}</td>
+			<td>{{Value[6][4]}}</td>
+		</tr>
+	</table>
+</div>
